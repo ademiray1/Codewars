@@ -47,3 +47,21 @@ def capitals(word):
 
 
 print(capitals(word))
+
+#%% Acibiber53
+
+def capitals(word):
+    
+    ls = []
+    
+    for i, x in enumerate(word):
+        
+        if x >= 'A' and x <= 'Z':
+                        
+            ls.append(i)
+    return ls
+
+            
+print(capitals(word))
+        
+    
